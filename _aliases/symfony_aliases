@@ -1,0 +1,6 @@
+alias sfdev='php bin/console --env=dev'
+alias sfprod='php bin/console --env=prod'
+alias sflocal='php bin/console --env=local'
+alias sftest='php bin/console --env=test'
+alias sfpre='php bin/console --env=pre'
+alias sfdebug='php -dxdebug.remote_autostart=On bin/console '
