@@ -1,4 +1,5 @@
 export DOTFILES_PATH=$HOME/.dotfiles
+export PATH="$HOME/.symfony/bin:$PATH"
 
 setopt HIST_IGNORE_ALL_DUPS
 bindkey -e
