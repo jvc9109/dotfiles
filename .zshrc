@@ -17,6 +17,9 @@ source ${ZIM_HOME}/init.zsh
 
 for aliasToSource in "$DOTFILES_PATH/_aliases/"*; do source "$aliasToSource"; done
 for functionsToSource in "$DOTFILES_PATH/_functions/"*; do source "$functionsToSource"; done
+#uncomment only in wsl2 installations
+#for wslToSource in "$DOTFILES_PATH/_wsl_exports/"*; do source "$wslToSource"; done
+
 # ------------------------------
 # Post-init module configuration
 # ------------------------------
