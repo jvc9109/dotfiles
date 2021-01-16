@@ -1,3 +1,6 @@
 [user]
 	email = jvc.9109@hotmail.com
 	name = Jorge Vergara
+[core]
+	autocrlf = false
+	eol = lf
